@@ -74,11 +74,8 @@ public void user_is_on_Home_Page() throws Throwable {
         //tags = {"~@SmokeTest" , "~@RegressionTest", "~@End2End"}
 		// tags = {"@SmokeTest , @RegressionTest"}   // OR Tag , : Executes all scenarios which having tags smoke or Regression.
 		// tags = {"@SmokeTest" , "@RegressionTest"} // And tag :Executes scenarios which having both Smoke & Regression only.
-		// tags = {"~@SmokeTest" , @RegressionTest, @End2End"} // using ~ to ignore which contains smoke only scenarios.
-		
+		// tags = {"~@SmokeTest" , @RegressionTest, @End2End"} // using ~ to ignore which contains smoke only scenarios.		
 		)
-
-
 public class TestRunner {
 
 }
