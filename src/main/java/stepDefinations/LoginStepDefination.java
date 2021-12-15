@@ -27,6 +27,9 @@ public class LoginStepDefination {
 		//driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		//driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.get("https://classic.freecrm.com/index.html?e=1");				
+	
+	
+	
 	}
 	
 	@When("^user title of login page is Free CRM$")
