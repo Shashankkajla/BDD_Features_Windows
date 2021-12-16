@@ -25,6 +25,10 @@ public class HomeStepDefination {  // extends class are not allowed, initilizati
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("test123");
 		driver.findElement(By.xpath("//input[@type='submit']")).click();
 		driver.switchTo().frame("mainpanel");	
+	
+	
+	
+	
 	}
 
 	@Then("^user mouse over on contact link$")
